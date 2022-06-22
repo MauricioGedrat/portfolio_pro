@@ -5,10 +5,10 @@ import GatoImg from '../../assets/images/gato.jpg'
 
 const Hero = () => {
     return (
-        <div className="flex items-center justify-center">
-            <main className="gap-10 grid xl:grid-cols-2  mt-[60px]">
+        <div className="flex items-center justify-center h-screen">
+            <main className="grid gap-14 xl:grid-cols-2 ">
                 <div>
-                    <Image src={Img} alt="hero image" className="m-6" />
+                    <Image src={Img} alt="hero image" />
                 </div>
                 <div>
                     <h1 className="text-4xl font-kdam">
